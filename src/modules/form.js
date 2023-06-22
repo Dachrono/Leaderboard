@@ -1,4 +1,4 @@
-export default function form() {
+const form = () => {
   let container = document.getElementById('scoreCont');
   const form = document.createElement('form');
   form.id = 'formCont';
@@ -20,4 +20,6 @@ export default function form() {
   const button = document.createElement('button');
   button.textContent = 'submit';
   container.appendChild(button);
-}
+};
+
+export default form;
