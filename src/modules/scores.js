@@ -1,4 +1,4 @@
-export function scoreTitle() {
+export const scoreTitle = () => {
   let container = document.getElementById('scoreCont');
 
   let div = document.createElement('div');
@@ -18,9 +18,9 @@ export function scoreTitle() {
   const button = document.createElement('button');
   button.textContent = 'buton';
   container.appendChild(button);
-}
+};
 
-export function list() {
+export const list = () => {
   let container = document.getElementById('table');
   const lista = document.createElement('ul');
   lista.id = 'scoreList';
@@ -36,4 +36,4 @@ export function list() {
     itemList.textContent = `name: ${i}`;
     container.appendChild(itemList);
   }
-}
+};
