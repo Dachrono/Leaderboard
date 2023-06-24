@@ -29,6 +29,8 @@ export const getData = async () => {
     const itemList = document.createElement('li');
     if (i % 2 === 0) {
       itemList.className = 'shadow';
+    } else {
+      itemList.className = 'white';
     }
     itemList.id = `liItem${i + 1}`;
     itemList.textContent = `${dataRes[i].user}: ${dataRes[i].score}`;

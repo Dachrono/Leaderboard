@@ -1,9 +1,26 @@
 body {
   margin: 10px;
   padding: 0;
+  background: url('../pic/bg.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+h1 {
+  background-color: #dd8512e3;
+  font-size: 60px;
+  padding: 0 0 0 20px;
+}
+
+h3 {
+  text-align: center;
+  background-color: #f0f8ffcc;
+  padding: 10px 0 10px 0;
 }
 
 #container {
+  background-color: #12ddaac5;
   width: 100%;
   margin: 0;
   padding: 0;
@@ -12,7 +29,7 @@ body {
 }
 
 #container button {
-  background: none;
+  background-color: #f0f8ffcc;
   box-shadow: 5px 4px 4px rgb(0, 0, 0, 0.9);
 }
 
@@ -29,6 +46,7 @@ body {
 }
 
 #titleScore {
+  background-color: #f0f8ffcc;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -36,12 +54,15 @@ body {
 
 #scoreList {
   margin: 0;
-  padding: 0;
+  padding: 0 0 0 0;
+  height: auto;
   border: 3px solid;
   list-style: none;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-size: medium;
+  font-weight: bolder;
 }
 
 #scoreList li {
@@ -49,14 +70,30 @@ body {
 }
 
 .shadow {
-  background-color: rgb(109, 109, 109);
+  background-color: #6d6d6dcc;
+}
+
+.white {
+  background-color: #f0f8ffcc;
 }
 
 #formCont {
   width: 50%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+}
+
+#boxInput {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
   gap: 10px;
+}
+
+#boxButton {
+  margin-top: 10px;
+  width: 35%;
+  display: flex;
+  justify-content: end;
 }

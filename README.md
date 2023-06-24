@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
-  <img src="./logo.png" alt="logo" width="140"  height="auto" />
+  <img src="./src/pic/logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h1><b>Leaderboard.</b></h1>
@@ -45,14 +45,14 @@ is JavaScript project for the Leaderboard list app.
 <details>
   <summary>Html files</summary>
   <ul>
-    <li>this files contends all html code, font, links, css links, js links</li>
+    <li>This file is the template to recieve the dinamical js content</li>
   </ul>
 </details>
 
 <details>
 <summary>Css file</summary>
   <ul>
-    <li>this files help us to give the visual part to the html files content</li>
+    <li>this files help us to give the visual part to the html file content</li>
   </ul>
 </details>
 
@@ -71,7 +71,7 @@ is JavaScript project for the Leaderboard list app.
 </details>
 
 <details>
-  <summary>Webpack.</summary>
+  <summary>Webpack</summary>
   <ul>
     <li>I use web pack in this project </li>
   </ul>
@@ -81,8 +81,6 @@ is JavaScript project for the Leaderboard list app.
 
 - **[The liters that I use is it html, css and js]**
 - **[The html file was code it in html5]**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -113,7 +111,8 @@ you do not need install anything
 
 To run the project, execute the following command:
 
-for the moment this project do not need anything to execute
+- npm init
+- npm run start
 
 ### Run tests
 
@@ -143,9 +142,9 @@ Andres Zamorano Medina
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-**[I will create the functions]**<br>
-**[I will create work with api]**<br>
-**[I will create function with the form]**
+**[I will create the new functions]**<br>
+**[I will create animations]**<br>
+**[I will create a scroll for the list]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
