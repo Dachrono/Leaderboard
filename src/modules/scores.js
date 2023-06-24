@@ -11,7 +11,7 @@ export const scoreTitle = () => {
   container.appendChild(div);
 
   container = document.getElementById('titleScore');
-  const title = document.createElement('h3');
+  const title = document.createElement('h2');
   title.textContent = 'Recent Scores';
   container.appendChild(title);
 
@@ -25,5 +25,6 @@ export const list = () => {
   const container = document.getElementById('table');
   const lista = document.createElement('ul');
   lista.id = 'scoreList';
+  lista.scrollTop = 0;
   container.appendChild(lista);
 };
