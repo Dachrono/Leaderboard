@@ -10,10 +10,12 @@ const form = () => {
   container.appendChild(title);
 
   let input = document.createElement('input');
+  input.id = 'name';
   input.placeholder = 'your name';
   container.appendChild(input);
 
   input = document.createElement('input');
+  input.id = 'score';
   input.placeholder = 'your score';
   container.appendChild(input);
 
