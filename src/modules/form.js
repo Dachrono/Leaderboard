@@ -5,7 +5,12 @@ const form = () => {
   container.appendChild(form);
 
   container = document.getElementById('formCont');
+  let box = document.createElement('div');
+  box.id = 'boxInput';
+  container.appendChild(box);
+  container = document.getElementById('boxInput');
   const title = document.createElement('h3');
+  title.id = 'h3';
   title.textContent = 'Add your score';
   container.appendChild(title);
 
@@ -19,6 +24,11 @@ const form = () => {
   input.placeholder = 'your score';
   container.appendChild(input);
 
+  container = document.getElementById('formCont');
+  box = document.createElement('div');
+  box.id = 'boxButton';
+  container.appendChild(box);
+  container = document.getElementById('boxButton');
   const button = document.createElement('button');
   button.textContent = 'submit';
   container.appendChild(button);

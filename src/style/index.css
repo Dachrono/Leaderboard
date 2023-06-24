@@ -9,12 +9,14 @@ body {
 
 h1 {
   background-color: #dd8512e3;
+  font-size: 60px;
   padding: 0 0 0 20px;
 }
 
 h3 {
+  text-align: center;
   background-color: #f0f8ffcc;
-  padding: 10px 30px 10px 30px;
+  padding: 10px 0 10px 0;
 }
 
 #container {
@@ -79,7 +81,20 @@ h3 {
   width: 50%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: baseline;
   align-items: center;
+}
+
+#boxInput {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
   gap: 10px;
+}
+
+#boxButton {
+  margin-top: 10px;
+  width: 35%;
+  display: flex;
+  justify-content: end;
 }
